@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {
+  }
+
+  body:focus {
+    @apply border-purple-500 outline-purple-500 ring-purple-500;
+  }
+
+  ::selection {
+    @apply bg-purple-700 text-white;
+  }
+}

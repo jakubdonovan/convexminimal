@@ -1,0 +1,15 @@
+{
+  "unstable": [
+    "sloppy-imports"
+  ],
+  "imports": {
+    "$lib": "./src/lib",
+    "$lib/": "./src/lib/",
+    "$env/static/public": "./.svelte-kit/ambient.d.ts",
+    "$env/static/private": "./.svelte-kit/ambient.d.ts",
+    "$env/dynamic/public": "./.svelte-kit/ambient.d.ts",
+    "$env/dynamic/private": "./.svelte-kit/ambient.d.ts",
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.48",
+    "@std/text": "jsr:@std/text@^1.0.7"
+  }
+}
